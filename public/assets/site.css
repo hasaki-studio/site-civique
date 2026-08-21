@@ -1,0 +1,131 @@
+/* Page unique de préfiguration. Palette reprise à l'identique de
+   naturalisation.hasakistudio.fr — même studio, même identité. */
+
+:root {
+  --bleu-nuit: #1c2b49;
+  --or: #9c7a3c;
+  --rouge: #a62b2b;
+  --blanc-casse: #f6f3ec;
+  --papier: #fcfaf5;
+  --ardoise: #5b6472;
+  --ligne: #dedacd;
+  --vert: #3e6b4f;
+  --font-display: "Fraunces", Georgia, serif;
+  --font-sans: "Inter", system-ui, sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--blanc-casse);
+  color: var(--ardoise);
+  font-family: var(--font-sans);
+  line-height: 1.6;
+}
+
+.tricolor {
+  display: flex;
+  height: 4px;
+}
+.tricolor span { flex: 1; }
+.tricolor .b { background: var(--bleu-nuit); }
+.tricolor .w { background: var(--papier); }
+.tricolor .r { background: var(--rouge); }
+
+header {
+  border-bottom: 1px solid var(--ligne);
+  background: var(--blanc-casse);
+}
+
+.brand {
+  max-width: 64rem;
+  margin: 0 auto;
+  padding: 1rem 1.25rem;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-family: var(--font-display);
+  font-size: 1.125rem;
+  color: var(--bleu-nuit);
+  text-decoration: none;
+}
+
+.brand-mark {
+  display: inline-flex;
+  width: 21px;
+  height: 14px;
+  border: 1px solid var(--ligne);
+  border-radius: 2px;
+  overflow: hidden;
+}
+.brand-mark span { flex: 1; }
+.brand-mark .b { background: var(--bleu-nuit); }
+.brand-mark .w { background: var(--papier); }
+.brand-mark .r { background: var(--rouge); }
+
+main {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 4.5rem 1.25rem 5rem;
+  text-align: center;
+}
+
+.eyebrow {
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--or);
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+h1 {
+  font-family: var(--font-display);
+  color: var(--bleu-nuit);
+  font-size: 2rem;
+  margin: 0.75rem 0 1.25rem;
+}
+
+main p {
+  font-size: 1.0625rem;
+  margin: 0 0 1rem;
+}
+
+.badge {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.5rem 1.1rem;
+  border-radius: 999px;
+  background: var(--vert);
+  color: var(--papier);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.cta {
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 0.75rem 1.5rem;
+  border: 1.5px solid var(--bleu-nuit);
+  border-radius: 6px;
+  color: var(--bleu-nuit);
+  text-decoration: none;
+  font-weight: 600;
+}
+.cta:hover { background: var(--bleu-nuit); color: var(--papier); }
+
+footer {
+  border-top: 1px solid var(--ligne);
+  padding: 2rem 1.25rem;
+  text-align: center;
+  font-size: 0.8125rem;
+  color: var(--ardoise);
+}
+footer a { color: var(--bleu-nuit); }
+
+@media (max-width: 480px) {
+  h1 { font-size: 1.6rem; }
+}
