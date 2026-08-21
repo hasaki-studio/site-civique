@@ -59,8 +59,8 @@ PAGES = [
         "url": "/conseils",
         "source": "content/conseils.md",
         "eyebrow": "Préparation",
-        "h1": "Conseils avant l'examen",
-        "title": "Conseils avant l'examen civique | Hasaki Studio",
+        "h1": "Conseils de révision",
+        "title": "Conseils de révision pour l'examen civique | Hasaki Studio",
         "description": (
             "Comment se déroule l'examen civique, liens officiels, et méthode de "
             "révision efficace."
@@ -284,7 +284,7 @@ FOOTER = """<footer class="bg-bleu-nuit text-papier">
 <ul class="mt-5 flex flex-wrap gap-x-8 gap-y-3 text-sm">
 <li><a href="/mentions-legales" class="underline-offset-4 hover:underline">Mentions légales</a></li>
 <li><a href="/confidentialite" class="underline-offset-4 hover:underline">Politique de confidentialité</a></li>
-<li><a href="/conseils" class="underline-offset-4 hover:underline">Conseils avant l'examen</a></li>
+<li><a href="/conseils" class="underline-offset-4 hover:underline">Conseils de révision</a></li>
 <li><a href="/contact" class="underline-offset-4 hover:underline">Contact</a></li>
 <li><a href="https://naturalisation.hasakistudio.fr" class="underline-offset-4 hover:underline">Réussir mon entretien</a></li>
 </ul>

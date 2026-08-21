@@ -1,4 +1,4 @@
-# Conseils avant l'examen
+# Conseils de révision
 
 *Dernière mise à jour : 8 août 2026*
 
@@ -58,6 +58,10 @@ d'écart.
 **Ne devinez pas au hasard sans réfléchir.** Une bonne partie des questions se raisonnent
 par élimination même sans connaître la réponse exacte — mais une case laissée vide compte
 comme une erreur au même titre qu'une mauvaise réponse.
+
+**Méfiez-vous des réponses absolues.** Les questions du QCM piègent souvent sur les
+propositions trop tranchées — « jamais », « toujours ». Une réponse aussi catégorique est
+souvent la mauvaise.
 
 ## Le jour de l'examen
 
