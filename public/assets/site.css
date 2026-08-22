@@ -1081,3 +1081,31 @@
 @media (max-width: 640px) {
   .prose h2 { font-size: 1.25rem; }
 }
+
+/* ---------------------------------------------------------------------------
+   Choix de réponse (carte d'exemple de l'accueil).
+   Reproduit l'état "réponse donnée" de l'application telle qu'elle existe
+   réellement, plutôt qu'une interaction reconstituée pour la vitrine.
+   --------------------------------------------------------------------------- */
+
+.choice {
+  border: 1px solid var(--ligne);
+  background: var(--blanc-casse);
+  border-radius: 0.75rem;
+  padding: 0.65rem 1rem;
+  color: var(--bleu-nuit);
+}
+
+.choice-correct {
+  border: 2px solid var(--vert);
+  background: #eaf2ec;
+  color: var(--vert);
+  font-weight: 600;
+}
+
+.choice-wrong {
+  border: 2px solid var(--rouge);
+  background: #fbf0f0;
+  color: var(--rouge);
+  font-weight: 600;
+}
