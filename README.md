@@ -142,3 +142,15 @@ Identiques à `site-nat-civ` par choix explicite : Achraf AZOUZI (personne physi
 même adresse de réexpédition, même téléphone, Cloudflare comme hébergeur,
 `contact@hasakistudio.fr`. Toute mise à jour de ces informations (immatriculation,
 changement d'adresse) doit être répercutée **sur les deux dépôts**.
+
+## Liens vers les magasins, le jour de la publication
+
+`build/index.body.html` et `content/conseils.md` affichent « Bientôt disponible » et
+pointent vers l'ancre `/#application`, faute d'application publiée. Le jour de la mise en
+ligne, les remplacer par les adresses définitives, puis régénérer et redéployer :
+
+    Google Play   https://play.google.com/store/apps/details?id=com.hasakistudio.examencivique
+    App Store     https://apps.apple.com/app/id6804383682
+
+Ne jamais publier une adresse `appstoreconnect.apple.com` : c'est le back-office privé,
+pas la fiche publique.

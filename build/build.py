@@ -62,8 +62,8 @@ PAGES = [
         "h1": "Conseils de révision",
         "title": "Conseils de révision pour l'examen civique | Hasaki Studio",
         "description": (
-            "Comment se déroule l'examen civique, liens officiels, et méthode de "
-            "révision efficace."
+            "Examen civique : 40 questions, 45 minutes, 32/40 pour valider. Listes "
+            "officielles de questions, méthode de révision et questions fréquentes."
         ),
         "priority": "0.8",
     },
@@ -141,6 +141,10 @@ def _inline(text):
 
     text = html.escape(text, quote=False)
 
+    # Retour à la ligne dur hérité de pandoc : une barre oblique inverse suivie
+    # d'un blanc. Sans ce traitement, elle s'affiche telle quelle dans le texte.
+    text = re.sub(r"\\(?=\s|$)", "<br>", text)
+
     def link(m):
         label, href = m.group(1), m.group(2)
         external = href.startswith("http")
@@ -148,6 +152,18 @@ def _inline(text):
         return stash('<a href="%s"%s>%s</a>' % (html.escape(href, quote=True), attrs, label))
 
     text = re.sub(r"\[([^\]]+)\]\(([^)]+)\)", link, text)
+
+    # Lien automatique <https://…>. Le texte est déjà échappé à ce stade, les
+    # chevrons se présentent donc sous leur forme entité.
+    def autolien(m):
+        href = m.group(1)
+        return stash(
+            '<a href="%s" target="_blank" rel="noopener noreferrer">%s</a>'
+            % (html.escape(href, quote=True), href)
+        )
+
+    text = re.sub(r"&lt;(https?://[^\s&<>]+)&gt;", autolien, text)
+
     text = re.sub(r"\*\*([^*]+)\*\*", r"<strong>\1</strong>", text)
 
     def italic(m):
@@ -182,6 +198,7 @@ def md_to_html(md):
     lines = md.split("\n")
     out, i = [], 0
     n = len(lines)
+    titre_consomme = False
 
     while i < n:
         line = lines[i]
