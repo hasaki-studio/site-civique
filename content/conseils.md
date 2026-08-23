@@ -32,24 +32,6 @@ laquelle vous concerne, puis révisez à partir de celle-là.
 **Naturalisation**
 → [Questions de connaissance pour l'examen civique — nationalité française](https://www.immigration.interieur.gouv.fr/documentation/guides-textes-et-brochures/questions-de-connaissance-pour-lexamen-civique-nationalite-francaise.html)
 
-## Liens utiles
-
-**Portail officiel de l'examen civique**
-Les ressources de préparation publiées par le ministère de l'Intérieur.
-→ [formation-civique.interieur.gouv.fr](https://formation-civique.interieur.gouv.fr/examen-civique/)
-
-**ANEF — Administration Numérique pour les Étrangers en France**
-Dépôt et suivi de votre dossier en ligne.
-→ [administration-etrangers-en-france.interieur.gouv.fr](https://administration-etrangers-en-france.interieur.gouv.fr/)
-
-**Service-public.fr**
-Conditions, pièces justificatives et démarches.
-→ [service-public.gouv.fr](https://www.service-public.gouv.fr/)
-
-**Votre préfecture**
-Prise de rendez-vous et questions sur votre dossier.
-→ [lannuaire.service-public.fr](https://lannuaire.service-public.fr/)
-
 ## Comment réviser efficacement
 
 **Étalez plutôt que de concentrer.** Quinze minutes par jour pendant trois semaines
@@ -71,11 +53,86 @@ comme une erreur au même titre qu'une mauvaise réponse.
 propositions trop tranchées — « jamais », « toujours ». Une réponse aussi catégorique est
 souvent la mauvaise.
 
+## Les trois modes de révision, et quand les utiliser
+
+Connaître ces principes ne suffit pas : encore faut-il savoir quoi ouvrir un mardi soir
+quand il reste vingt minutes. **Réussir mon examen civique** propose trois modes, et ils
+ne servent pas au même moment de la préparation.
+
+### Mode express — entretenir, tous les jours
+
+Des questions tirées au hasard dans l'ensemble du programme. Vous répondez, l'explication
+s'affiche aussitôt, puis vous passez à la suivante.
+
+C'est le mode du quotidien, celui des cinq minutes dans les transports. Deux choses le
+rendent efficace. Le tirage aléatoire mélange les thèmes, ce qui vous oblige à identifier
+de quoi parle la question avant d'y répondre — un effort que la révision thème par thème
+escamote, et qui est précisément celui demandé le jour de l'examen. Et la correction
+immédiate empêche une erreur de s'installer.
+
+À utiliser du premier jour jusqu'à la veille de l'épreuve, sans chercher à faire de
+longues sessions.
+
+### Révision par thème — construire les bases
+
+Vous choisissez un thème du programme et parcourez ses questions dans l'ordre. Elles se
+débloquent par niveaux : vous terminez le niveau en cours avant d'accéder au suivant.
+
+C'est le mode du début de préparation, quand le programme est encore neuf : cinq thèmes
+d'un coup découragent, un thème à la fois se termine. La progression par niveaux évite
+aussi de survoler cent questions sans en retenir aucune.
+
+C'est également le mode de la réparation : après un examen blanc raté sur un thème
+précis, on y revient ici plutôt que de tout recommencer.
+
+### Examen blanc — se mettre en conditions
+
+40 questions, 45 minutes chronométrées, sans correction avant la fin — les conditions
+réelles de l'épreuve.
+
+Son intérêt n'est pas d'apprendre, mais de **mesurer**. Tant que vous ne passez pas
+régulièrement la barre des 32 bonnes réponses sur 40, la préparation n'est pas terminée,
+quel que soit le sentiment de maîtrise. Il sert aussi à travailler la gestion du temps :
+45 minutes pour 40 questions laissent un peu plus d'une minute par question, et découvrir
+cette contrainte le jour J est une mauvaise surprise évitable.
+
+Comptez-en au moins deux avant l'examen, à quelques jours d'intervalle.
+
+### Un plan sur quatre semaines
+
+| Quand | Mode principal | Objectif |
+|---|---|---|
+| Semaines 1 et 2 | Révision par thème | Parcourir tout le programme une première fois |
+| Chaque jour, en parallèle | Mode express, 15 minutes | Entretenir et mélanger les thèmes |
+| Semaine 3 | Premier examen blanc | Situer son niveau réel, sans complaisance |
+| Semaine 4 | Examen blanc, puis thèmes faibles | Viser 32/40 de façon régulière |
+
+Quatre semaines est un ordre de grandeur, pas une règle : ajustez selon votre point de
+départ et la date de votre convocation.
+
 ## Le jour de l'examen
 
 Vérifiez la convocation : date, lieu, pièce d'identité et documents demandés. Arrivez en
 avance. 45 minutes passent vite sur 40 questions — ne restez pas bloqué trop longtemps sur
 une seule, passez à la suite et revenez-y si le temps le permet.
+
+## Liens utiles
+
+**Portail officiel de l'examen civique**
+Les ressources de préparation publiées par le ministère de l'Intérieur.
+→ [formation-civique.interieur.gouv.fr](https://formation-civique.interieur.gouv.fr/examen-civique/)
+
+**ANEF — Administration Numérique pour les Étrangers en France**
+Dépôt et suivi de votre dossier en ligne.
+→ [administration-etrangers-en-france.interieur.gouv.fr](https://administration-etrangers-en-france.interieur.gouv.fr/)
+
+**Service-public.fr**
+Conditions, pièces justificatives et démarches.
+→ [service-public.gouv.fr](https://www.service-public.gouv.fr/)
+
+**Votre préfecture**
+Prise de rendez-vous et questions sur votre dossier.
+→ [lannuaire.service-public.fr](https://lannuaire.service-public.fr/)
 
 ## Questions fréquentes
 
@@ -127,6 +184,13 @@ la mémoire consolide pendant les intervalles, pas pendant l'effort.
 
 Le meilleur indicateur reste vos résultats en examen blanc. Tant que vous êtes en dessous
 de 32 bonnes réponses sur 40 de façon régulière, continuez à réviser.
+
+### Quel mode de révision choisir ?
+
+Les trois sont complémentaires. Commencez par la **révision par thème** pour parcourir le
+programme, gardez le **mode express** en entretien quotidien du début à la fin, et passez
+des **examens blancs** à partir de la troisième semaine pour mesurer où vous en êtes. Le
+détail de chaque mode figure plus haut sur cette page.
 
 ### L'application est-elle gratuite ?
 
