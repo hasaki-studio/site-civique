@@ -1,10 +1,25 @@
 # Conseils de révision
 
-*Dernière mise à jour : 23 août 2026*
+*Dernière mise à jour : 24 août 2026*
 
 > Cette application est indépendante et n'est pas affiliée au ministère de l'Intérieur.
 > Les informations ci-dessous sont données à titre indicatif ; référez-vous toujours aux
 > sources officielles pour toute démarche.
+
+## Préparer l'examen civique avec Réussir mon examen civique
+
+**Réussir mon examen civique** est une application indépendante destinée à préparer et
+réviser l'examen civique français.
+
+Elle permet de s'entraîner au format exact de l'épreuve — 40 questions à choix multiple
+en 45 minutes — de réviser thème par thème et de revenir sur les questions qui posent le
+plus de difficultés. Chaque réponse est accompagnée d'une explication.
+
+> **L'application ne permet pas de suivre votre dossier ni de vous inscrire à l'examen,
+> et n'accède pas aux données de l'ANEF.**
+> Pour vos démarches administratives, utilisez uniquement les services officiels de l'État.
+
+[Bientôt disponible sur Android et sur l'App Store](/#application)
 
 ## Ce qu'est l'examen civique
 
@@ -36,22 +51,29 @@ laquelle vous concerne, puis révisez à partir de celle-là.
 
 **Étalez plutôt que de concentrer.** Quinze minutes par jour pendant trois semaines
 ancrent davantage qu'une journée entière la veille. La mémoire consolide pendant les
-intervalles, pas pendant l'effort.
+intervalles, pas pendant l'effort. C'est ce que permet le **mode express** de
+*Réussir mon examen civique* : quelques questions tirées au hasard, le temps d'un trajet,
+sans avoir à dégager une heure.
 
 **Passez des séries en conditions réelles.** 40 questions, 45 minutes : entraînez-vous
 dans ces conditions avant le jour J, pour ne pas découvrir le format le jour de l'examen.
+Le mode **examen blanc** reproduit exactement cette contrainte, chronomètre compris.
 
 **Revenez sur ce qui résiste.** Un thème déjà maîtrisé n'apprend plus rien. Les questions
 qui vous mettent en difficulté méritent d'être revues plusieurs fois, à quelques jours
-d'écart.
+d'écart. La **révision par thème** sert précisément à ça : reprendre un domaine précis
+sans refaire tout le programme.
 
 **Ne devinez pas au hasard sans réfléchir.** Une bonne partie des questions se raisonnent
 par élimination même sans connaître la réponse exacte — mais une case laissée vide compte
-comme une erreur au même titre qu'une mauvaise réponse.
+comme une erreur au même titre qu'une mauvaise réponse. Dans l'application, l'explication
+qui suit chaque réponse indique pourquoi les autres propositions sont fausses : c'est
+souvent là que se construit le raisonnement par élimination.
 
 **Méfiez-vous des réponses absolues.** Les questions du QCM piègent souvent sur les
 propositions trop tranchées — « jamais », « toujours ». Une réponse aussi catégorique est
-souvent la mauvaise.
+souvent la mauvaise, et les explications de l'application signalent ces formulations
+piège lorsqu'elles apparaissent.
 
 ## Les trois modes de révision, et quand les utiliser
 
