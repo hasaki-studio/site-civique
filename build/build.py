@@ -15,6 +15,7 @@ Aucune dépendance externe.
 import html
 import json
 import os
+import hashlib
 import re
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -194,6 +195,14 @@ def _split_row(line):
     return [c.strip() for c in line.strip().strip("|").split("|")]
 
 
+
+def empreinte_css():
+    """Huit caractères tirés du contenu de la feuille, pour dater le lien."""
+    chemin = os.path.join(ROOT, "public", "assets", "site.css")
+    with open(chemin, "rb") as f:
+        return hashlib.sha1(f.read()).hexdigest()[:8]
+
+
 def md_to_html(md):
     lines = md.split("\n")
     out, i = [], 0
@@ -285,15 +294,18 @@ def md_to_html(md):
 # Gabarit
 # --------------------------------------------------------------------------
 
-HEADER = """<header class="border-b border-ligne bg-blanc-casse">
-<div aria-hidden="true" class="flex h-1 w-full"><div class="flex-1 bg-bleu-nuit"></div><div class="flex-1 bg-papier"></div><div class="flex-1 bg-rouge"></div></div>
-<nav aria-label="Navigation principale" class="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-3 px-5 py-4">
-<a href="/" style="font-family:var(--font-display)" class="flex items-center gap-2.5 font-display text-lg text-bleu-nuit"><span aria-hidden="true" class="inline-flex overflow-hidden rounded-[2px] border border-ligne align-middle" style="height:14px;width:21px"><span class="h-full flex-1" style="background-color:#1C2B49"></span><span class="h-full flex-1" style="background-color:#F6F3EC"></span><span class="h-full flex-1" style="background-color:#A62B2B"></span></span>Hasaki Studio</a>
+DRAPEAU_SVG = '<span aria-hidden="true" class="inline-flex overflow-hidden rounded-[2px] border border-ligne align-middle" style="height:14px;width:21px"><span class="h-full flex-1" style="background-color:#1C2B49"></span><span class="h-full flex-1" style="background-color:#F6F3EC"></span><span class="h-full flex-1" style="background-color:#A62B2B"></span></span>'
+
+HEADER = """<header class="relative border-b border-ligne bg-blanc-casse">
+<div aria-hidden="true" class="absolute inset-0 flex"><div class="flex-1" style="background-color:#1C2B49;opacity:.10"></div><div class="flex-1"></div><div class="flex-1" style="background-color:#A62B2B;opacity:.10"></div></div>
+<div aria-hidden="true" class="relative flex h-1 w-full"><div class="flex-1 bg-bleu-nuit"></div><div class="flex-1 bg-papier"></div><div class="flex-1 bg-rouge"></div></div>
+<nav aria-label="Navigation principale" class="relative mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-3 px-5 py-4">
+<a href="/" class="flex items-center gap-2.5 text-bleu-nuit">DRAPEAU<span class="flex flex-col leading-tight"><span class="text-lg" style="font-family:var(--font-display)">Hasaki Studio</span><span class="text-xs text-or">NOM_APP</span></span></a>
 <ul class="flex items-center gap-5 text-sm text-ardoise">
 <li><a class="hover:text-bleu-nuit" href="/#application">L'application</a></li>
 <li><a class="hover:text-bleu-nuit" href="/conseils-de-revision">Conseils</a></li>
 <li><a class="hover:text-bleu-nuit" href="/contact">Contact</a></li>
-</ul></nav></header>"""
+</ul></nav></header>""".replace("DRAPEAU", DRAPEAU_SVG).replace("NOM_APP", APP_NAME)
 
 FOOTER = """<footer class="bg-bleu-nuit text-papier">
 <div class="mx-auto max-w-5xl px-5 py-12">
@@ -328,7 +340,7 @@ SHELL = """<!DOCTYPE html>
 <link rel="icon" href="/favicon.ico" sizes="32x32">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-<link rel="stylesheet" href="/assets/site.css">
+<link rel="stylesheet" href="/assets/site.css?v={css_version}">
 {jsonld}</head>
 <body>
 <div class="min-h-screen bg-blanc-casse">
@@ -380,6 +392,8 @@ def normalise_links(markup):
 
 def build():
     written = []
+    version_css = empreinte_css()
+
     for page in PAGES:
         if "body_file" in page:
             main = normalise_links(
@@ -401,6 +415,7 @@ def build():
             data, ensure_ascii=False, separators=(",", ":")
         )
         doc = SHELL.format(
+            css_version=version_css,
             jsonld=jsonld,
             title=html.escape(page["title"], quote=True),
             description=html.escape(page["description"], quote=True),
