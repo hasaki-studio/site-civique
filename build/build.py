@@ -300,12 +300,12 @@ HEADER = """<header class="relative border-b border-ligne bg-blanc-casse">
 <div aria-hidden="true" class="absolute inset-0 flex"><div class="flex-1" style="background-color:#1C2B49;opacity:.10"></div><div class="flex-1"></div><div class="flex-1" style="background-color:#A62B2B;opacity:.10"></div></div>
 <div aria-hidden="true" class="relative flex h-1 w-full"><div class="flex-1 bg-bleu-nuit"></div><div class="flex-1 bg-papier"></div><div class="flex-1 bg-rouge"></div></div>
 <nav aria-label="Navigation principale" class="relative mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-3 px-5 py-4">
-<a href="/" class="flex items-center gap-2.5 text-bleu-nuit">DRAPEAU<span class="flex flex-col leading-tight"><span class="text-lg" style="font-family:var(--font-display)">Hasaki Studio</span><span class="text-xs text-or">NOM_APP</span></span></a>
+<a href="/" class="flex items-center gap-2.5 text-bleu-nuit">DRAPEAU<span class="flex flex-col leading-tight"><span class="text-lg" style="font-family:var(--font-display)">Hasaki Studio</span><span class="text-xs"><span class="text-or">Réussir</span> <span class="text-bleu-nuit">Mon examen civique</span></span></span></a>
 <ul class="flex items-center gap-5 text-sm text-ardoise">
 <li><a class="hover:text-bleu-nuit" href="/#application">L'application</a></li>
 <li><a class="hover:text-bleu-nuit" href="/conseils-de-revision">Conseils</a></li>
 <li><a class="hover:text-bleu-nuit" href="/contact">Contact</a></li>
-</ul></nav></header>""".replace("DRAPEAU", DRAPEAU_SVG).replace("NOM_APP", APP_NAME)
+</ul></nav></header>""".replace("DRAPEAU", DRAPEAU_SVG)
 
 FOOTER = """<footer class="bg-bleu-nuit text-papier">
 <div class="mx-auto max-w-5xl px-5 py-12">
