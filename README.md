@@ -154,3 +154,4 @@ ligne, les remplacer par les adresses définitives, puis régénérer et redépl
 
 Ne jamais publier une adresse `appstoreconnect.apple.com` : c'est le back-office privé,
 pas la fiche publique.
+
