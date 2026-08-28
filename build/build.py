@@ -303,7 +303,7 @@ FOOTER = """<footer class="bg-bleu-nuit text-papier">
 <li><a href="/confidentialite" class="underline-offset-4 hover:underline">Politique de confidentialité</a></li>
 <li><a href="/conseils-de-revision" class="underline-offset-4 hover:underline">Conseils de révision</a></li>
 <li><a href="/contact" class="underline-offset-4 hover:underline">Contact</a></li>
-<li><a href="https://naturalisation.hasakistudio.fr" class="underline-offset-4 hover:underline">Réussir mon entretien</a></li>
+<li><a href="https://naturalisation.hasakistudio.fr" class="underline-offset-4 hover:underline">Entretien de naturalisation</a></li>
 </ul>
 <p class="mt-8 text-xs text-papier/70">© {annee} {studio}. Application indépendante, non affiliée au ministère de l'Intérieur.</p>
 </div></footer>""".format(studio=STUDIO, annee=ANNEE)

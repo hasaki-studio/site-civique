@@ -1109,3 +1109,21 @@
   color: var(--rouge);
   font-weight: 600;
 }
+
+/* ---------------------------------------------------------------------------
+   Badges de téléchargement. Sur mobile ils s'alignaient à gauche en laissant
+   la moitié droite de l'écran vide ; ils occupent désormais toute la largeur
+   disponible, et reprennent leur largeur naturelle dès qu'il y a la place.
+   --------------------------------------------------------------------------- */
+
+.badge-store {
+  width: 100%;
+  justify-content: center;
+}
+
+@media (min-width: 640px) {
+  .badge-store {
+    width: auto;
+    justify-content: flex-start;
+  }
+}

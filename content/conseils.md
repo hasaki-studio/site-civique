@@ -51,8 +51,8 @@ laquelle vous concerne, puis révisez à partir de celle-là.
 
 **Étalez plutôt que de concentrer.** Quinze minutes par jour pendant trois semaines
 ancrent davantage qu'une journée entière la veille. La mémoire consolide pendant les
-intervalles, pas pendant l'effort. C'est ce que permet le **mode express** de
-*Réussir mon examen civique* : quelques questions tirées au hasard, le temps d'un trajet,
+intervalles, pas pendant l'effort. C'est ce que permet la **révision express** de
+*Réussir mon examen civique* : quinze questions tirées au hasard, le temps d'un trajet,
 sans avoir à dégager une heure.
 
 **Passez des séries en conditions réelles.** 40 questions, 45 minutes : entraînez-vous
@@ -61,8 +61,8 @@ Le mode **examen blanc** reproduit exactement cette contrainte, chronomètre com
 
 **Revenez sur ce qui résiste.** Un thème déjà maîtrisé n'apprend plus rien. Les questions
 qui vous mettent en difficulté méritent d'être revues plusieurs fois, à quelques jours
-d'écart. La **révision par thème** sert précisément à ça : reprendre un domaine précis
-sans refaire tout le programme.
+d'écart. **Réviser en détail** sert précisément à ça : reprendre un domaine précis sans refaire tout
+le programme.
 
 **Ne devinez pas au hasard sans réfléchir.** Une bonne partie des questions se raisonnent
 par élimination même sans connaître la réponse exacte — mais une case laissée vide compte
@@ -81,10 +81,10 @@ Connaître ces principes ne suffit pas : encore faut-il savoir quoi ouvrir un ma
 quand il reste vingt minutes. **Réussir mon examen civique** propose trois modes, et ils
 ne servent pas au même moment de la préparation.
 
-### Mode express — entretenir, tous les jours
+### ⚡ Révision express — entretenir, tous les jours
 
-Des questions tirées au hasard dans l'ensemble du programme. Vous répondez, l'explication
-s'affiche aussitôt, puis vous passez à la suivante.
+Quinze questions tirées au hasard dans l'ensemble du programme, corrigées au fur et à
+mesure : vous répondez, l'explication s'affiche aussitôt, puis vous passez à la suivante.
 
 C'est le mode du quotidien, celui des cinq minutes dans les transports. Deux choses le
 rendent efficace. Le tirage aléatoire mélange les thèmes, ce qui vous oblige à identifier
@@ -95,10 +95,11 @@ immédiate empêche une erreur de s'installer.
 À utiliser du premier jour jusqu'à la veille de l'épreuve, sans chercher à faire de
 longues sessions.
 
-### Révision par thème — construire les bases
+### 📚 Réviser en détail — construire les bases
 
-Vous choisissez un thème du programme et parcourez ses questions dans l'ordre. Elles se
-débloquent par niveaux : vous terminez le niveau en cours avant d'accéder au suivant.
+Les questions sont organisées par thème ou par niveau. Vous choisissez un domaine et le
+parcourez dans l'ordre ; les questions se débloquent par paliers, le niveau en cours devant
+être terminé avant d'accéder au suivant.
 
 C'est le mode du début de préparation, quand le programme est encore neuf : cinq thèmes
 d'un coup découragent, un thème à la fois se termine. La progression par niveaux évite
@@ -107,10 +108,10 @@ aussi de survoler cent questions sans en retenir aucune.
 C'est également le mode de la réparation : après un examen blanc raté sur un thème
 précis, on y revient ici plutôt que de tout recommencer.
 
-### Examen blanc — se mettre en conditions
+### 📝 Examen blanc — se mettre en conditions
 
-40 questions, 45 minutes chronométrées, sans correction avant la fin — les conditions
-réelles de l'épreuve.
+40 questions dont douze mises en situation, 45 minutes chronométrées, sans correction avant
+la fin — les conditions réelles de l'épreuve, avec le seuil de 32 bonnes réponses.
 
 Son intérêt n'est pas d'apprendre, mais de **mesurer**. Tant que vous ne passez pas
 régulièrement la barre des 32 bonnes réponses sur 40, la préparation n'est pas terminée,
@@ -124,10 +125,10 @@ Comptez-en au moins deux avant l'examen, à quelques jours d'intervalle.
 
 | Quand | Mode principal | Objectif |
 |---|---|---|
-| Semaines 1 et 2 | Révision par thème | Parcourir tout le programme une première fois |
-| Chaque jour, en parallèle | Mode express, 15 minutes | Entretenir et mélanger les thèmes |
-| Semaine 3 | Premier examen blanc | Situer son niveau réel, sans complaisance |
-| Semaine 4 | Examen blanc, puis thèmes faibles | Viser 32/40 de façon régulière |
+| Semaines 1 et 2 | 📚 Réviser en détail | Parcourir tout le programme une première fois |
+| Chaque jour, en parallèle | ⚡ Révision express | Entretenir et mélanger les thèmes |
+| Semaine 3 | 📝 Premier examen blanc | Situer son niveau réel, sans complaisance |
+| Semaine 4 | 📝 Examen blanc, puis thèmes faibles | Viser 32/40 de façon régulière |
 
 Quatre semaines est un ordre de grandeur, pas une règle : ajustez selon votre point de
 départ et la date de votre convocation.
@@ -209,8 +210,8 @@ de 32 bonnes réponses sur 40 de façon régulière, continuez à réviser.
 
 ### Quel mode de révision choisir ?
 
-Les trois sont complémentaires. Commencez par la **révision par thème** pour parcourir le
-programme, gardez le **mode express** en entretien quotidien du début à la fin, et passez
+Les trois sont complémentaires. Commencez par **réviser en détail** pour parcourir le
+programme, gardez la **révision express** en entretien quotidien du début à la fin, et passez
 des **examens blancs** à partir de la troisième semaine pour mesurer où vous en êtes. Le
 détail de chaque mode figure plus haut sur cette page.
 
