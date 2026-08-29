@@ -1110,22 +1110,29 @@
   font-weight: 600;
 }
 
-/* ---------------------------------------------------------------------------
-   Badges de téléchargement. Sur mobile ils s'alignaient à gauche en laissant
-   la moitié droite de l'écran vide ; ils occupent désormais toute la largeur
-   disponible. Le seuil de retour à la largeur naturelle est celui du passage
-   de la page en deux colonnes — en dessous, la colonne est pleine largeur et
-   des badges étroits y laisseraient le même vide.
-   --------------------------------------------------------------------------- */
-
-.badge-store {
-  width: 100%;
-  justify-content: center;
-}
 
 @media (min-width: 768px) {
   .badge-store {
     width: auto;
     justify-content: flex-start;
   }
+}
+
+/* ---------------------------------------------------------------------------
+   Badges de téléchargement. Ils sont empilés et occupent toute la largeur de
+   leur colonne, sur mobile comme sur ordinateur. Aucun seuil de largeur n'est
+   employé : la colonne se dimensionne d'elle-même selon la place disponible,
+   ce qui évite de parier sur la largeur CSS des appareils.
+   --------------------------------------------------------------------------- */
+
+.badges {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  flex: 1 1 260px;
+}
+
+.badge-store {
+  width: 100%;
+  justify-content: center;
 }
