@@ -1113,7 +1113,9 @@
 /* ---------------------------------------------------------------------------
    Badges de téléchargement. Sur mobile ils s'alignaient à gauche en laissant
    la moitié droite de l'écran vide ; ils occupent désormais toute la largeur
-   disponible, et reprennent leur largeur naturelle dès qu'il y a la place.
+   disponible. Le seuil de retour à la largeur naturelle est celui du passage
+   de la page en deux colonnes — en dessous, la colonne est pleine largeur et
+   des badges étroits y laisseraient le même vide.
    --------------------------------------------------------------------------- */
 
 .badge-store {
@@ -1121,7 +1123,7 @@
   justify-content: center;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 768px) {
   .badge-store {
     width: auto;
     justify-content: flex-start;
