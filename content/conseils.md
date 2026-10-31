@@ -19,7 +19,9 @@ plus de difficultés. Chaque réponse est accompagnée d'une explication.
 > et n'accède pas aux données de l'ANEF.**
 > Pour vos démarches administratives, utilisez uniquement les services officiels de l'État.
 
-[Bientôt disponible sur Android et sur l'App Store](/#application)
+**[Télécharger l'application sur Google Play](https://play.google.com/store/apps/details?id=com.hasakistudio.examencivique)**
+
+*Version iPhone bientôt disponible sur l'App Store.*
 
 ## Ce qu'est l'examen civique
 

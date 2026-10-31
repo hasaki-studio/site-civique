@@ -46,7 +46,7 @@ PAGES = [
         "description": (
             "Préparation à l'examen civique, obligatoire depuis le 1er janvier 2026 pour "
             "la carte de séjour pluriannuelle, la carte de résident et la naturalisation. "
-            "QCM en conditions réelles. Application Android bientôt disponible."
+            "QCM en conditions réelles. Application disponible sur Android, bientôt sur iPhone."
         ),
         "og_title": "Réussir mon examen civique",
         "og_description": (

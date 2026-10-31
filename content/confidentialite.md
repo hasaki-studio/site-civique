@@ -3,7 +3,7 @@
 **Application « Réussir mon examen civique »** — préparation à l'examen civique.
 Identifiant Android : `com.hasakistudio.examencivique`
 
-*Dernière mise à jour : 8 août 2026*
+*Dernière mise à jour : 31 octobre 2026*
 
 ## En résumé
 
@@ -21,10 +21,10 @@ Trois traitements font intervenir des services Google, chacun avec son propre r�
 
 ## 1. Responsable du traitement
 
-**Achraf AZOUZI** — personne physique. *Hasaki Studio* est un nom d'usage, non une société
-immatriculée.
+**Hasaki Studio** — Achraf AZOUZI, entrepreneur individuel (EI), régime micro-entreprise.
 
-- Domicile : 3 avenue de Choisy, Tour Bergame, BP 2122, 75013 Paris
+- SIREN : 130 296 460
+- Siège : 47 rue Crozatier, BP AZOUZI, 75012 Paris
 - Contact : **contact@hasakistudio.fr**
 
 ## 2. Données que l'application ne collecte pas

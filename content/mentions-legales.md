@@ -1,13 +1,14 @@
 # Mentions légales
 
-*Dernière mise à jour : 8 août 2026*
+*Dernière mise à jour : 31 octobre 2026*
 
 ## Éditeur
 
-**Achraf AZOUZI** — personne physique. *Hasaki Studio* est un nom d'usage, non une société
-immatriculée.
+**Hasaki Studio** — Achraf AZOUZI, entrepreneur individuel (EI), régime micro-entreprise,
+directeur de la publication.
 
-- Domicile : 3 avenue de Choisy, Tour Bergame, BP 2122, 75013 Paris
+- SIREN : 130 296 460
+- Siège : 47 rue Crozatier, BP AZOUZI, 75012 Paris
 - Téléphone : 06 13 66 73 89
 - Contact : contact@hasakistudio.fr
 
